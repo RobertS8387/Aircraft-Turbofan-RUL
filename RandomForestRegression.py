@@ -218,8 +218,8 @@ df1.plot(kind='bar',figsize=(30,24))
 plt.title('Random Forest')
 plt.xlabel('Engine ID')
 plt.ylabel('Remaining Useful Life (No. of Cycles)')
-plt.grid(which='major', linestyle='-', linewidth='0.5', color='white')
-plt.grid(which='minor', linestyle=':', linewidth='0.5', color='white')
+plt.grid(which='major', linestyle='-', linewidth='0.5', color='black')
+plt.grid(which='minor', linestyle=':', linewidth='0.5', color='black')
 plt.show()
 
 #calculates the residual of predicted and true RUL 
